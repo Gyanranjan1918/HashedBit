@@ -1,0 +1,75 @@
+.mainDiv{
+display:flex;
+flex-direction: column;
+background-color: aqua;
+height: auto;
+width:80vw;
+justify-content: center;
+align-items: center;
+}
+
+.inputDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+width:80%;
+height:40%;
+box-shadow: 0 0 10px 10px rgba(0,0,0,.3);
+}
+.inputDiv input{
+  margin:.4rem;
+  text-align: center;
+}
+.inputDiv button{
+  background-color: rgb(24, 21, 18);
+  border:none;
+  border-radius: 10px;
+  padding:4px;
+  color:whitesmoke;
+  width: 40%;
+}
+.inputDiv button:hover{
+  background-color: rgb(213, 228, 3);
+  color: black;
+  cursor: pointer;
+}
+.showDivParent{
+background-color: rgb(225, 225, 235);
+width:100%;
+margin-top: 2rem;
+}
+
+/* .showDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+} */
+
+/* .showDiv> p,h1{
+  
+  font-size: 1rem;
+  margin-left: .3rem;
+} */
+table{
+  width:100%;
+}
+tr{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+thead{
+  background-color: rgb(80, 12, 12);
+  color: antiquewhite;
+}
+.dltBtn{
+  background-color:rgb(255, 0, 0);
+  color:white;
+  border:none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  cursor: pointer;
+
+}
